@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MonkeyNetworks Dashboard</title>
+  <!-- Material CDN -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+  rel="stylesheet">
+  <!-- STYLESHEET  -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+   <aside>
+      <div class="top">
+        <div class="logo">
+          <img src="./images/logo.png">
+          <h2>Monkey<span class="logocolor">Networks</span></h2>
+        </div>
+        <div class="close" id="close-btn">
+          <span class="material-icons-sharp">close</span>
+        </div>
+      </div>
+
+      <div class="sidebar">
+        <a href="#" class="active">
+          <span class="material-icons-sharp">grid_view</span>
+          <h3>Dashboard</h3>
+        </a>
+        <a href="#">
+          <span class="material-icons-sharp">groups</span>
+          <h3>Staff</h3>
+        </a>
+        <a href="#">
+          <span class="material-icons-sharp">download</span>
+          <h3>Workshop</h3>
+        </a>
+        <a href="#">
+          <span class="material-icons-sharp">shopping_bag</span>
+          <h3>Shop</h3>
+        </a>
+        <a href="#">
+          <span class="material-icons-sharp">chat</span>
+          <h3>Discord</h3>
+        </a>
+        <a href="#">
+          <span class="material-icons-sharp">description</span>
+          <h3>Rules</h3>
+        </a>
+        <a href="#">
+          <span class="material-icons-sharp">description</span>
+          <h3>Staff Rules</h3>
+        </a>
+        <a href="#">
+          <span class="material-icons-sharp">sms</span>
+          <h3>Messages</h3>
+          <span class="message-count">26</span>
+        </a>
+        <a href="#">
+          <span class="material-icons-sharp">settings</span>
+          <h3>Settings</h3>
+        </a>
+        <a href="#">
+          <span class="material-icons-sharp">logout</span>
+          <h3>Log Out</h3>
+        </a>
+      </div>
+   </aside>
+   <!--------------------------- END OF ASIDE --------------------------->
+  <main>
+      <h1>Dashboard</h1>
+
+      <div class="date">
+        <input type="date">
+      </div>
+
+      <div class="insights">
+        <div class="playtime">
+          <span class="material-icons-sharp">analytics</span>
+          <div class="middle">
+            <div class="left">
+              <h3>Playtime</h3>
+              <h1>12 Hours</h1> <!--- REPLACE WITH PLAYER PLAYTIME --->
+            </div>
+              <div class="position">
+            </div>
+          </div>
+        </div>
+       <!--------------------------- END OF PLAYTIME --------------------------->
+       <div class="money">
+        <span class="material-icons-sharp">payments</span>
+        <div class="middle">
+          <div class="left">
+            <h3>Money</h3>
+            <h1>69.000$</h1> <!--- REPLACE WITH PLAYER MONEY --->
+          </div>
+          <div class="position">
+          </div>
+        </div>
+      </div>
+     <!--------------------------- END OF MONEY --------------------------->
+     <div class="respect">
+      <span class="material-icons-sharp">star</span>
+      <div class="middle">
+        <div class="left">
+          <h3>Respect</h3>
+          <h1>10</h1> <!--- REPLACE WITH PLAYER RESPECT --->
+        </div>
+          <div class="position">
+        </div>
+      </div>
+    </div>
+   <!--------------------------- END OF RESPECT --------------------------->
+    </div>
+   <!--------------------------- END OF INSIGHTS --------------------------->
+          <div class="recent-tickets">
+            <h2>Recent Tickets</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>Ticket Creator</th> <!--- REPLACE WITH TICKET CREATOR --->
+                  <th>Ticket Reason</th> <!--- REPLACE WITH TICKET REASON --->
+                  <th>Ticket Staff</th> <!--- REPLACE WITH TICKET STAFF --->
+                  <th>Ticket Status</th> <!--- REPLACE WITH TICKET STATUS --->
+                  <th>Ticket Date</th> <!--- REPLACE WITH TICKET DATE --->
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+            </table>
+          </div>
+       </main>
+   <!--------------------------- END OF MAIN --------------------------->
+
+    <div class="right">
+        <div class="top">
+              <button id="menu-btn">
+                <span class="material-icons-sharp">menu</span>
+              </button>
+              <div class="theme-toggler">
+                <span class="material-icons-sharp active">light_mode</span>
+                <span class="material-icons-sharp">dark_mode</span>        
+              </div>
+              <div class="profile">
+                <div class="info">
+                  <p> Hey, <b>Luma</b></p> <!--- REPLACE WITH STEAM NAME OR DISCORD NAME --->
+                  <small class="text-muted">Admin</small>
+                </div>
+                <div class="profile-photo">
+                  <img src="./images/profilepicture.png"> <!--- REPLACE WITH STEAM PICTURE OR DISCORD PICTURE --->
+                </div>
+            </div>
+        </div>
+        <!--- END OF THE TOP --->
+        <div class="recent-purchases">
+          <h2>Recent Purchases</h2>
+          <div class="purchases">
+            <div class="purchases">
+              <div class="profile-photo">
+                <img src="./images/profilepicture2.png"> <!--- REPLACE WITH STEAM PICTURE OR DISCORD PICTURE OF BUYER --->
+              </div>
+              <div class="message">
+                 <p><b>Brendan</b> buyed the VIP++ Rank!</p> <!--- REPLACE WITH SHOP ITEM --->
+                 <small class="text-muted">1 Minutes Ago</small> <!--- REPLACE WITH TIME AGO --->
+              </div>
+            </div>
+            <div class="purchases">
+              <div class="profile-photo">
+                <img src="./images/profilepicture2.png"> <!--- REPLACE WITH STEAM PICTURE OR DISCORD PICTURE OF BUYER --->
+              </div>
+              <div class="message">
+                 <p><b>Brendan</b> buyed the VIP+ Rank!</p> <!--- REPLACE WITH SHOP ITEM --->
+                 <small class="text-muted">2 Minutes Ago</small> <!--- REPLACE WITH TIME AGO --->
+              </div>
+            </div>
+            <div class="purchases">
+              <div class="profile-photo">
+                <img src="./images/profilepicture2.png"> <!--- REPLACE WITH STEAM PICTURE OR DISCORD PICTURE OF BUYER --->
+              </div>
+              <div class="message">
+                 <p><b>Brendan</b> buyed the VIP Rank!</p> <!--- REPLACE WITH SHOP ITEM --->
+                 <small class="text-muted">3 Minutes Ago</small> <!--- REPLACE WITH TIME AGO --->
+              </div>
+            </div>
+          </div>
+        </div>
+   <!--------------------------- END OF PURCHASES --------------------------->
+    <div class="sales-analytics">
+      <h2>Sales Analytics</h2>
+      <div class="orders">
+        <div class="icon">
+          <span class="material-icons-sharp">shopping_cart</span>
+        </div>
+        <div class="right">
+          <div class="info">
+            <h3>ORDERS</h3>
+            <small class ="text-muted">Last 24 Hours</small>
+          </div>
+          <h5 class="success">+50%</h5> <!--- REPLACE WITH + OR - % FROM THE DAY BEFORE --->
+          <h3>10</h3> <!--- REPLACE WITH ORDER AMOUNT --->
+        </div>
+      </div>
+      <div class="orders earnings">
+        <div class="icon">
+          <span class="material-icons-sharp">payments</span>
+        </div>
+        <div class="right">
+          <div class="info">
+            <h3>EARNINGS</h3>
+            <small class ="text-muted">Last 24 Hours</small>
+          </div>
+          <h5 class="danger">-50%</h5> <!--- REPLACE WITH + OR - % FROM THE DAY BEFORE --->
+          <h3>50€</h3> <!--- REPLACE WITH ORDER AMOUNT --->
+        </div>
+      </div>
+      <div class="orders customers">
+        <div class="icon">
+          <span class="material-icons-sharp">person</span>
+        </div>
+        <div class="right">
+          <div class="info">
+            <h3>NEW CUSTOMER</h3>
+            <small class ="text-muted">Last 24 Hours</small>
+          </div>
+          <h5 class="warning">0%</h5> <!--- REPLACE WITH + OR - % FROM THE DAY BEFORE --->
+          <h3>10</h3> <!--- REPLACE WITH ORDER AMOUNT --->
+        </div>
+      </div>
+     </div>
+    </div>
+  </div>
+  <script src="./tickets.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
